@@ -1,9 +1,7 @@
 # Photo-Realistic-Face-Generation
-Code For Photo Realistic Talking Faces
+Code For Photo Realistic Talking Faces	
 
-		
-														                                                               The below lines follow the "Description -- Command" format.
-
+The below lines follow the "Description -- Command" format.
 
 1) To create the environment -- conda env create -f environment.yml
 
