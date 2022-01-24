@@ -85,21 +85,17 @@ Virtual
 use_virtual: this flag activates the use of cycle consistency loss during the training.
 
 <p align="center">
-  <img width="170" height="170" src="https://github.com/meherabhi/IETaFS-Identity-preserved-Expressive-Talking-Faces-with-Synchrony/blob/main/results/face_comp.png">
+  <img  src="https://github.com/meherabhi/IETaFS-Identity-preserved-Expressive-Talking-Faces-with-Synchrony/blob/main/results/face_comp.png">
 </p>
 
 <p align="center">
-  <img width="600" height="150" src="https://github.com/meherabhi/IETaFS-Identity-preserved-Expressive-Talking-Faces-with-Synchrony/blob/main/results/model_comp.jpg">
+  <img src="https://github.com/meherabhi/IETaFS-Identity-preserved-Expressive-Talking-Faces-with-Synchrony/blob/main/results/model_comp.jpg">
 </p>
 
 #### Use your own dataset
 If you want to use other datasets you will need to detect and crop bounding boxes around the face of each image, compute their corresponding Action Unit vectors and resize them to 128x128px.
 
 You can perform all these steps using [OpenFace](https://github.com/TadasBaltrusaitis/OpenFace). First you will need to setup the project. They provide guides for [linux](https://github.com/TadasBaltrusaitis/OpenFace/wiki/Unix-Installation) and [windows](https://github.com/TadasBaltrusaitis/OpenFace/wiki/Windows-Installation). Once the models are compiled, read their [Action Unit wiki](https://github.com/TadasBaltrusaitis/OpenFace/wiki/Action-Units) and their [documentation](https://github.com/TadasBaltrusaitis/OpenFace/wiki/Command-line-arguments) on these models to find out which is the command that you need to execute.
-
-After computing these Action Units, depending on the command that you have used, you will obtain different output formats. With the command that I used, I obtained a _csv_ file for each image containing its corresponding Action Units vector among extra information, a folder for each image containing the resized and cropped image and a _txt_ file with extra details about each image. You can find in _openface_utils_ folder the code that I used to extract all the Action Unit information in a _txt_ file and to group all the images into a single folder.
-
-After having the Action Unit _txt_ file and the image folder you can move them to the directory of this project. By default, this code assumes that you have these two elements in _`./data/celeba/`_.
 
 This code is an extension to the implementation in https://github.com/vipermu/ganimation.
 
