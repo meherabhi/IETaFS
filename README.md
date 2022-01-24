@@ -97,7 +97,7 @@ If you want to use other datasets you will need to detect and crop bounding boxe
 
 You can perform all these steps using [OpenFace](https://github.com/TadasBaltrusaitis/OpenFace). First you will need to setup the project. They provide guides for [linux](https://github.com/TadasBaltrusaitis/OpenFace/wiki/Unix-Installation) and [windows](https://github.com/TadasBaltrusaitis/OpenFace/wiki/Windows-Installation). Once the models are compiled, read their [Action Unit wiki](https://github.com/TadasBaltrusaitis/OpenFace/wiki/Action-Units) and their [documentation](https://github.com/TadasBaltrusaitis/OpenFace/wiki/Command-line-arguments) on these models to find out which is the command that you need to execute.
 
-This code is an extension to the implementation in https://github.com/vipermu/ganimation.
+This code is an extension to the implementation in [ganimation](https://github.com/vipermu/ganimation).
 
 
 
