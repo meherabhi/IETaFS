@@ -1,6 +1,10 @@
 # IETaFS: Identity preserved Expressive Talking Faces with Synchrony
 Code For IETaFS: Identity preserved Expressive Talking Faces with Synchrony	
 
+<p align="center">
+  <img  src="https://github.com/meherabhi/IETaFS-Identity-preserved-Expressive-Talking-Faces-with-Synchrony/blob/main/results/abhij2.png">
+</p>
+
 The below lines follow the "Description -- Command" format.
 
 1) To create the environment -- conda env create -f environment.yml
