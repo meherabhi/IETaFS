@@ -32,7 +32,7 @@ The models are saved in the exeriments folder.
 7) Refer to their official github pages for the commands to follow
 
   
-Parameters:
+### Parameters:
  
 You can either modify these parameters in main.py or by calling them as command line arguments.
 
@@ -48,7 +48,7 @@ lambda_sat: lambda for attention saturation loss.
   
 lambda_smooth: lambda for attention smoothing loss.
   
-Training parameters
+### Training parameters
   
 c_dim: number of Action Units to use to train the model.
   
@@ -62,7 +62,7 @@ g_lr: generator's learning rate.
   
 d_lr: discriminator's learning rate.
   
-Pretrained models parameters
+### Pretrained models parameters
   
 The weights are stored in the following format: <epoch>-<iteration>-<G/D>.ckpt where G and D represent the Generator and the Discriminator respectively. We save the state of thoptimizers in the same format and extension but add '_optim'.
   
@@ -70,7 +70,7 @@ resume_iters: iteration numbre from which we want to start the training. Note th
   
 first_epoch: initial epoch for when we train from pretrained models.
   
-Miscellaneous:
+### Miscellaneous:
   
 mode: train/test.
   
@@ -80,7 +80,7 @@ attr_path: path to your attributes txt folder.
   
 outputs_dir: name for the output folder.
   
-Virtual
+### Virtual
   
 use_virtual: this flag activates the use of cycle consistency loss during the training.
 
