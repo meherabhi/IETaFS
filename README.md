@@ -1,12 +1,13 @@
-# Photo-Realistic-Face-Generation
-Code For Photo Realistic Talking Faces	
+# IETaFS: Identity preserved Expressive Talking Faces with Synchrony
+Code For IETaFS: Identity preserved Expressive Talking
+Faces with Synchrony	
 
 The below lines follow the "Description -- Command" format.
 
 1) To create the environment -- conda env create -f environment.yml
 
-2) To use the exisiting env in the -- conda activate ganimation
-EEE dept GPU
+2) To use the exisiting env  -- conda activate ganimation
+
 
 3) To run animation -- python main.py --mode animation																																														
 [ Animate a single image with a audio file ]
@@ -26,8 +27,8 @@ spectrograms: Spectrograms of the driving audio
 5) The format of saving the model is <epoch>-<iteration>-<model_name>.ckpt
 The models are saved in the exeriments folder.
 
-6) Activate the corresponding environments -- conda env list
-for running the codes of ATVGnet, DAVS models.
+6) Activate the corresponding environments for running the codes of ATVGnet, DAVS models. -- conda env list
+
 
 7) Refer to their official github pages for the commands to follow
 
