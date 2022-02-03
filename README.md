@@ -15,13 +15,17 @@ The below lines follow the "Description -- Command" format.
 3) To run animation -- python main.py --mode animation																																														
 [ Animate a single image with a audio file ]
 
-At the location "animations/eric_andre" populate the following accordingly.
+    At the location "animations/eric_andre" populate the following accordingly.
 
-images_to_animate: images that we want to animate.
-pretrained_models: pretrained models (Of the Generator and the AUnet)
-results: folder where the resulting images will be stored.
-attributes.txt: See the sample to understand how to create 
-spectrograms: Spectrograms of the driving audio							
+    images_to_animate: images that we want to animate.
+    
+    pretrained_models: pretrained models (Of the Generator and the AUnet)
+    
+    results: folder where the resulting images will be stored.
+    
+    attributes.txt: See the sample to understand how to create 
+    
+    spectrograms: Spectrograms of the driving audio							
 
 4) To train the model -- python main.py --mode train	
 ( Set the appropriate parameters in config.py )
